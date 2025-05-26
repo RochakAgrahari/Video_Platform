@@ -1,45 +1,71 @@
-Video Streaming Platform Backend
-Introduction
-This is a Video Streaming Platform backend project that covers allmost the functionalities of youtube and also combines the tweet functionality from twitter into it. Find more about his project in the documentaion below.
+🎥 Video Streaming Platform Backend
+Welcome to the Video Streaming Platform Backend — a powerful backend service inspired by YouTube and Twitter. It offers comprehensive functionality for managing videos, user profiles, tweets, subscriptions, playlists, and more.
+
+🚀 Introduction
+This project is designed to replicate core features of a video-sharing platform like YouTube, while also integrating tweeting capabilities similar to Twitter. It includes robust APIs for content management, user interactions, and channel analytics.
 
 
-Features
-User Management:
+
+✨ Features
+👤 User Management
 Registration, login, logout, password reset
-Profile management (avatar, cover image, details)
+
+Profile management (avatar, cover image, bio, etc.)
+
 Watch history tracking
-Video Management:
-Video upload and publishing
-Video search, sorting, and pagination
-Video editing and deletion
-Visibility control (publish/unpublish)
-Tweet Management:
-Tweet creation and publishing
-Viewing user tweets
-Updating and deleting tweets
-Subscription Management:
-Subscribing to channels
-Viewing subscriber and subscribed channel lists
-Playlist Management:
-Creating, updating, and deleting playlists
-Adding and removing videos from playlists
-Viewing user playlists
-Like Management:
-Liking and unliking videos, comments, and tweets
-Viewing liked videos
-Comment Management:
-Adding, updating, and deleting comments on videos
-Dashboard:
-Viewing channel statistics (views, subscribers, videos, likes)
-Accessing uploaded videos
-Health Check:
-Endpoint to verify the backend's health
-Technologies Used
+
+📹 Video Management
+Upload and publish videos
+
+Search, sort, and paginate video content
+
+Edit and delete videos
+
+Visibility controls (publish/unpublish)
+
+🐦 Tweet Management
+Create and publish tweets
+
+View user tweets
+
+Edit and delete tweets
+
+🔔 Subscription Management
+Subscribe to channels
+
+View subscribers and subscribed channels
+
+📂 Playlist Management
+Create, update, and delete playlists
+
+Add/remove videos from playlists
+
+View user playlists
+
+👍 Like Management
+Like/unlike videos, tweets, and comments
+
+View liked videos
+
+💬 Comment Management
+Add, edit, and delete comments on videos
+
+📊 Dashboard
+View channel statistics (views, subscribers, videos, likes)
+
+Access uploaded videos
+
+❤️ Health Check
+Simple endpoint to verify the backend's operational health
+
+🛠️ Tech Stack
 Node.js
+
 Express.js
+
 MongoDB
-Cloudinary (must have an account)
 
+Cloudinary (for media storage – requires an account)
 
-License
+📄 License
 This project is licensed under ChaiAurCode.
